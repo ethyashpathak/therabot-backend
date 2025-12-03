@@ -1,0 +1,98 @@
+# General
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.python-version
+.python-version.*
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.cache/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Logs and reports
+*.log
+logs/
+*.out
+*.err
+coverage.xml
+htmlcov/
+.coverage
+
+# Secrets / environment files
+.env
+.env.*
+secrets.*
+credentials.json
+
+# Data, models, checkpoints
+data/
+datasets/
+models/
+checkpoints/
+checkpoints-*/
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.sav
+
+# Databases
+*.sqlite3
+*.db
+
+# Docker / compose
+docker-compose.override.yml
+.env.docker
+
+# Node (if present)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log
+
+# Packaging
+*.egg
+*.wheel
+
+# OS files
+ehthumbs.db
+
+# Temporary / caches
+tmp/
+temp/
+*.tmp
+
+# End of file
